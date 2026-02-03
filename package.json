@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lighthouse": "lhci autorun"
+    "lighthouse": "lhci autorun",
+    "cypress": "cypress run --browser chrome"
   },
   "author": "octojufe",
   "license": "ISC",

@@ -23,3 +23,6 @@ jobs:
 
       - name: Run Lighthouse
         run: npm run lighthouse
+
+      - name: Run Cypress
+        run: npm run cypress
