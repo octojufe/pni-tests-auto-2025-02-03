@@ -4,15 +4,8 @@
   "description": "Repository de support du webinaire \"Automatiser les tests d'accessibilité\" du Pôle Numérique Inclusif, session du 3 février 2025",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lighthouse": "lhci autorun",
-    "cypress": "cypress run --browser chrome"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "octojufe",
-  "license": "ISC",
-  "dependencies": {
-    "@lhci/cli": "^0.15.1",
-    "@testing-library/cypress": "^10.1.0",
-    "cypress": "^15.9.0"
-  }
+  "license": "ISC"
 }
