@@ -1,0 +1,11 @@
+{
+  "name": "pni-tests-auto-2025-02-03",
+  "version": "1.0.0",
+  "description": "Repository de support du webinaire \"Automatiser les tests d'accessibilité\" du Pôle Numérique Inclusif, session du 3 février 2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "octojufe",
+  "license": "ISC"
+}
