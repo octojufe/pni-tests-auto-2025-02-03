@@ -5,11 +5,8 @@ describe('Homepage', () => {
       return false
     })
 
-    cy.visit('https://www.cnrs.fr/fr')
-    cy.findByRole("link", { name: "Les ports de commerce ultramarins, lieux géostratégiques exceptionnels en transition" })
-        .click()
-
-    cy.url()
-        .should('eq', 'https://www.cnrs.fr/fr/actualite/les-ports-de-commerce-ultramarins-lieux-geostrategiques-exceptionnels-en-transition') // => true
+    cy.visit('https://beta.gouv.fr/')
+    cy.findByRole("heading", { level: 1, name: "Construisons ensemble les services publics numériques de demain" })
+        .should('exist')
   })
 })
